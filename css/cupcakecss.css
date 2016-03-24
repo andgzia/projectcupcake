@@ -266,14 +266,14 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 
 
 #slide4{
-	background-color: #fff;
+	background:#FFCCFF;
 	color: #333333;
 	height: 800px;
 	padding: 200px 0;
 }
 
 #slide5{
-	background:url('img/slide5.jpg') no-repeat fixed 50% 0;
+	background:url('../img/slide5.jpg')  no-repeat fixed 50% 0;
 	height: 200px;
 	margin: 0 auto;
 	padding: 20px 0;
