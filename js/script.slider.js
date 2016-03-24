@@ -1,13 +1,24 @@
+//  $(document).ready(function(){
+//  $('#sliderhome3').bxSlider({
+ //   slideWidth:200,
+   // minSlides: 2,
+    // maxSlides: 3,
+    // slideMargin: 10
+  //});
+// }); 
+
+
+
 (function($){
 
-        // Slidder home 4
-        if($('#bxslider-home4').length >0){
-            var slider = $('#bxslider-home4').bxSlider({
+        // Slidder home 3
+        if($('#sliderhome3').length >0){
+            var slider = $('#sliderhome3').bxSlider({
                 nextText:'<i class="fa fa-angle-right"></i>',
                 prevText:'<i class="fa fa-angle-left"></i>',
                 auto: true,
                 onSliderLoad:function(currentIndex){
-                    $('#bxslider-home4 li').find('.caption').each(function(i){
+                    $('#sliderhome3 li').find('.caption').each(function(i){
                         $(this).show().addClass('animated fadeInRight').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
                             $(this).removeClass('fadeInRight animated');
                         });
