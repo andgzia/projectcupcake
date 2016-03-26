@@ -95,22 +95,24 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height:300px;
 	margin: 0 auto;
 	background-color:#FFCCFF;
-	opacity:0.5;
+	opacity:0.7;
+	padding:20px auto;
 }
 
 
 .quotes_container .quotes h1 {
-	font-family:Wellfleet;
+	font-family:Billabong;
 	font-size:75px;
 	color:#660033;
 	opacity:1;
 	font-weight:bold;
+	
 
 
 }
 
 .quotes_container .quotes h2 {
-	font-family:Wellfleet;
+	font-family:Billabong;
 	font-size:75px;
 	color:#660033;
 	opacity:1;
@@ -121,8 +123,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 .quotes_container .quotes h3 {
 	font-family:"Lucida Handwriting";
 	color:black;
-	font-size:15px;
-	font-weight:bold;
+	font-size:18px;
 	opacity:1;
 }
 
@@ -134,7 +135,7 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 
 
 #slide2{
-	background-color: #fff;
+	background-color:#FFCCFF;
 	color:black;
 	height: 1000px;
 	margin: 0 auto;
@@ -281,6 +282,37 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	background-size: cover;
 }
 
+#section {
+	width:80%;
+	float:left;
+	padding:5%;
+	height:150px;
+	background-color:#FFFFCC;
+	font-family:"Trebuchet MS";
+	font-size:18px;
+}
+
+#start-order {
+	width:20%;
+	float:left;
+	padding:20px;
+	background-color:#FFFFCC;
+	height:150px;
+}
+
+#start-order .sticker {
+    position: relative;
+    float:left;
+    /*left: auto;
+    right: 0;
+ 
+	display: inline-block;*/
+	width: 122px;
+	height: 127px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image:url('../img/sticker-start-order.png');
+}
 
 
 /*= FOOTER 
