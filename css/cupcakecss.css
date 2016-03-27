@@ -279,7 +279,7 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 
 
 #slide5{
-	background: url('../img/slide5.jpg') no-repeat fixed 50% 0;
+	background:no-repeat aqua fixed 50% 0;
 	height: 200px;
 	margin: 0 auto;
 	padding: 20px 0;
@@ -287,18 +287,117 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	background-size: cover;
 }
 
+#slide6{
+	background:#FFE8FF fixed 50% 0;
+	height: 400px;
+	margin: 0 auto;
+	padding: 20px 0;
+	color:black;
+	background-size: cover;
+}
 
 /* FLAVORS */
 
-#section {
-	width:80%;
+.section {
+	width:60%;
 	float:left;
-	padding:5%;
-	height:150px;
+	padding:10px;
+	height:175px;
 	background-color:#FFECFF;
 	font-family:"Trebuchet MS";
-	font-size:18px;
+	font-size:16px;
 }
+
+.start-order {
+	width:20%;
+	float:left;
+	padding:20px;
+	background-color:#FFECFF;
+	height:175px;
+}
+
+.start-order .sticker {
+    position: relative;
+    float:left;
+    width: 122px;
+	height: 127px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image:url('../img/sticker-start-order.png');
+}
+
+
+.article {
+	width:40%;
+	float:left;
+	padding:5%;
+	height:300px;
+	background-color:#FFECFF;
+	font-family:"Trebuchet MS";
+	font-size:16px;
+}
+
+.footer-top-area {
+  bottom: -153px;
+  height: 300px;
+}    
+
+.footer-about-us {
+  margin-bottom: 60px;
+  color:black;
+  text-align:left;
+}
+
+.footer-newsletter {
+  margin-bottom: 60px;
+  color:black;
+  text-align:left;
+  padding-top:20px;
+
+}
+
+.newsletter-form input[type=email] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+.newsletter-form input[type=submit] {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px 20px;
+    text-transform: uppercase;border: 1px solid #5a88ca;
+    margin-bottom:10px;
+}
+.newsletter-form input[type=submit]:hover {background: #222;border-color: #666}
+.newsletter-form {
+    margin-top: 25px;
+}
+
+.footer-bottom-area {background:#990033;color:white;height:75px;}
+
+.footer-wid-title {
+  font-family:"Trebuchet MS";
+  font-size: 30px;
+  font-weight: 100px;
+  color: black;
+  text-align:left;
+  text-align:left;
+  padding-top:20px;
+}
+
+.footer-wid-title p {
+	font-family:"Trebuchet MS";
+	text-align:left;
+}
+
+
+.footer-social-area {background:#990033;color:white;height:50px; padding-left:500px;}
+
 
 #start-order2 {
 	width:20%;
@@ -340,18 +439,17 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 
  
 #ready{
-	padding:5%;
-	margin:50px; 
-	height: 100px; 
-	background-color:aqua;
-	
+	padding:25px;
+	margin:25px; 
 }
 
 #ready p {
-	text-align:center;
+	text-align:left;
 	font-family:"Trebuchet MS";
-	font-size:small;
+	font-size:18px;
 }
+
+
 
 /*TESTIMONI */
 #head-testimoni{
@@ -362,9 +460,80 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	background-size: cover;
 }
 
+.order {
+	margin-top:150px;
+}
+
 
 /*= FOOTER 
 --------------------------------------------------------*/
 
-#copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
-#copyright  a { text-decoration: none; color: #fff;  }
+.copyright  { color: black; font-family:"Wellfleet";  font-size: 16px; margin-top: 50px; text-align: center;  }
+.copyright  a { text-decoration: none; color: #fff;  }
+
+/* ORDER */
+
+
+
+.order .container h1{
+	font-family:Billabong;
+	font-size:70px;
+	color:black;
+	text-align:left;
+}
+
+.order .container p{
+font-size:18px;
+}
+
+.order-form input[type=name] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.order-form input[type=phone] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.order-form input[type=email] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.order-form input[type=message] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    height:200px
+}
+
+
+.order-form input[type=submit] {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: uppercase;border: 1px solid #5a88ca;
+    margin-bottom:10px;
+}
+.order-form input[type=submit]:hover {background: #222;border-color: #666}
+.order-form {
+    margin-top: 25px;
+}
+
+textarea {
+border-radius : 5%;
+width:50%;
+}
+
