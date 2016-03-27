@@ -40,6 +40,35 @@
 
 </script>
 
+<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
 
 </head>
 
@@ -71,13 +100,13 @@
                         <a href="#"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="index.html">Home</a>
+                        <a href="#slide1">Home</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="flavors.html">Flavors</a>
+                        <a href="#slide2">Cupcakes</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#">Wedding</a>
+                        <a href="#slide3">Cakepops</a>
                     </li><li class="page-scroll">
                         <a href="#">Party</a>
                     </li>
@@ -98,7 +127,7 @@
 
 <!-- SLIDE 1 --> 
 <div id="slide1">
-		<!--<div class="content">-->
+		
 		<div class="quotes_container">
 			<div class="quotes">
 			<br>
@@ -117,62 +146,77 @@
 
 <!-- SLIDE 2 --> 
 <div id="slide2">
-		<!-- <div class="content" > -->
 		<div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="text-center">
-                        <h2 style="color:black;"><span class="glyphicon glyphicon-star"></span> SEASONAL FAVORITES <span class="glyphicon glyphicon-star"></span></h2>
-                        <br>
-                        <br>
+            <div class="row" style="padding:75px;">
+             	<div class="col-md-12 col-sm-12" style="text-align:center;">
+                	<h2 style="font-family:'Arial Black'; color:black"><span class="glyphicon glyphicon-star"></span>  CUPCAKES  <span class="glyphicon glyphicon-star"></span></h2>
                     </div>
-                </div>
-            <!--</div> -->
-        	</div>
-        	
-        	
-             <div class="row">
-             	<div class="col-md-4 col-sm-12" style="text-align:center;color:#FF6600;">
-                	<img src="img/CarrotWalnut.jpg" class="img-circle" alt="" style="width:250px; height:250px;"> 
-                    <h4><span class="glyphicon glyphicon-star"></span> Carrot Walnut <span class="glyphicon glyphicon-star"></span></h4>
-                    <h5>Available March only</h5>
-                </div>
-                
-				<div class="col-md-4 col-sm-12" style="text-align:center;color:#00CC99;">
-                	<img src="img/PeppermintParty.jpg" class="img-circle" alt="" style="width:250px; height:250px;"> 
-                    <h4><span class="glyphicon glyphicon-star"></span> Peppermint Party <span class="glyphicon glyphicon-star"></span></h4>
-                    <h5>Available March Only</h5>
-                </div>
-                
-                <div class="col-md-4 col-sm-12" style="text-align:center;color:#CC6600;">
-                	<img src="img/Tiramisu1.jpg" class="img-circle" alt="" style="width:250px; height:250px;"> 
-                    <h4><span class="glyphicon glyphicon-star"></span>  Tiramisu  <span class="glyphicon glyphicon-star"></span></h4>
-                    <h5>Available March - May</h5>
-                </div>
-             </div>
+		</div>
+		</div>
              
-                    
-                        
-            <div class="row">
-             	 <div class="col-md-4 col-sm-12" style="text-align:center;color:#990033;">
-                	<!-- <img src="img/SaltedCaramel.jpg" class="img-circle" alt="" style="width:250px; height:250px;"> 
-                    <h4><span class="glyphicon glyphicon-star"></span> Salted Caramel <span class="glyphicon glyphicon-star"></span></h4>
-                    <h5>Available March Only</h5> -->
-                </div>
-                
-				<div class="col-md-4 col-sm-12" style="text-align:center;color:#990033;">
-                	<img src="img/RedVelvet.jpg" class="img-circle" alt="" style="width:250px; height:250px;"> 
-                    <h4><span class="glyphicon glyphicon-star"></span> Red Velvet <span class="glyphicon glyphicon-star"></span></h4>
-                    <h5>Available only in March</h5>
-                </div>
-                
-                <div class="col-md-4 col-sm-12" style="text-align:center;color:#990033;">
-                	<!-- <img src="img/LemonDrop.jpg" class="img-circle" alt="" style="width:250px; height:250px;"> 
-                    <h4><span class="glyphicon glyphicon-star"></span> Cupcake Paraben <span class="glyphicon glyphicon-star"></span></h4>
-                    <h5>Available only in March</h5> -->
-                </div>
-             </div>
-                
+<div class="container">
+	<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<img src="img/Grasshopper_Web-220x220.jpg" class="img-circle" alt="" style="width:100px; height:100px; float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify;">
+			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">The Grasshopper Cupcake</h4></div>
+			<p>Rich chocolate cake topped with Seely’s peppermint buttercream frosting, dunked in house-made chocolate and topped with green and white sprinkles and chocolate curls.<p>
+			</div>
+		 
+		 	<div class="col-md-3 col-sm-6">
+			<img src="img/LemonDrop.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify;">
+			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Lemon Drop Cupcake</h4></div>
+			<p>Vanilla bean buttercake paired with a very zesty and very buttery lemon frosting.…</p>
+			</div>
+		
+	</div>
+	
+	<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<img src="img/CarrotWalnut.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black;">
+			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Carrot Walnut Cupcake</h4></div>
+			<p>The Carrot Walnut is a hearty spiced carrot cake with chunky walnuts throughout, topped with a thick swirl of rich cream cheese frosting.…<p>
+			</div>
+		 
+		 	<div class="col-md-3 col-sm-6">
+			<img src="img/RedVelvet.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify">
+			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Red Velvet Cupcake</h4></div>
+			<p>A classic Southern buttermilk cake with a hint of cocoa. Topped off with a rich pile of cream cheese frosting and a dusting of red sparkle.…</p>
+			</div>
+		
+	</div>
+	<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<img src="img/PeppermintParty.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black">
+			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Peppermint Cupcake</h4></div>
+			<p>Refreshing mint buttercream piled atop our chocolate or vanilla cake, sprinkled with dark chocolate curls.…<p>
+			</div>
+		 
+		 	<div class="col-md-3 col-sm-6">
+			<img src="img/SaltedCaramel.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify">
+			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Salted Caramel Cupcake</h4></div>
+			<p>Chocolate Cake Royale topped with house-made caramel buttercream, Fleur de Sel and dark chocolate curls.…</p>
+			</div>
+		
+	</div> 
+
 				
 							
 			<div class="row">
@@ -185,13 +229,17 @@
 			 </div>
                 
            <div class="col-md-3 col-sm-12">
-  					<button type="button" class="btn btn-info btn-lg">Order Now</button>
+  					<!--<button type="button" class="btn btn-info btn-lg">Order Now</button> -->
+  					<div id="start-order2">
+					<a class="sticker" href="#"></a>	
+					</div>
            </div>
                 
            <div class="col-md-3 col-sm-12">
            </div>
       	</div>
-	</div> 
+	 
+</div>
 </div> 
 
 <!-- END of SLIDE 2 -->
@@ -201,7 +249,85 @@
 
 
 <div id="slide3">
-<div class="container">
+	<div class="container">
+		
+		<div class="row" style="padding:75px;">
+             	<div class="col-md-12 col-sm-12" style="text-align:center;">
+                	<h2 style="font-family:'Arial Black'; color:black"><span class="glyphicon glyphicon-star"></span>  CAKEPOPS  <span class="glyphicon glyphicon-star"></span></h2>
+                    </div>
+		</div>
+	</div>
+             
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<img src="img/cakepopdanceparty.jpg" class="img-circle" alt="" style="width:200px; height:200px; float:right;"/> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black;">
+			<div><br><br><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;"><br><br>Dance Party Cakepop</h4></div>
+			<p>Vanilla cupcake covered in a white chocolate coating with pastel sprinkles…<p>
+			</div>
+		 
+		 	<div class="col-md-3 col-sm-6">
+			<img src="img/cakepopredvelvet.jpg" class="img-circle" alt="" style="width:200px; height:200px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify">
+			<div><br><br><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;"><br><br>Red Velvet Cakepop</h4></div>
+			<p>Red velvet cupcake covered in a white chocolate coating with red sprinkles.…</p>
+			</div>
+		
+	</div>
+	
+	<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<img src="img/cakepoptriple.jpg" class="img-circle" alt="" style="width:200px; height:200px;float:right;"> 
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black;">
+			<div><br><br><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;"><br><br>Triple Treat Cakepop</h4></div>
+			<p>Chocolate cupcake covered in a chocolate coating with chocolate Vermicelli…<p>
+			</div>
+		 
+		 	<div class="col-md-3 col-sm-6">
+			</div>
+			
+			<div class="col-md-3 col-sm-6" style="text-align:justify">
+			</div>
+		
+	</div>
+	
+	<div class="row">
+			   
+			 <div class="col-md-3 col-sm-12">
+             </div> 
+					
+			<div class="col-md-3 col-sm-12">
+                  <button type="button" class="btn btn-info btn-lg" style="float:right;">View More</button>
+			 </div>
+                
+           <div class="col-md-3 col-sm-12">
+  					<!--<button type="button" class="btn btn-info btn-lg">Order Now</button> -->
+  					<div id="start-order3">
+					<a class="sticker" href="#"></a>	
+					</div>
+           </div>
+                
+           <div class="col-md-3 col-sm-12">
+           </div>
+      	</div>
+     
+</div>
+</div>
+
+
+<!-- END of SLIDE 3 -->
+
+
+<!-- SLIDE 4 --> 
+<div id="slide4">
+		<div class="container">
 	<div class="content">
 	
  	<div class="slider-area">
@@ -226,20 +352,6 @@
 	</div>
 </div> 
 </div>
-</div>
-
-
-<!-- END of SLIDE 3 -->
-
-
-<!-- SLIDE 4 --> 
-<div id="slide4">
-		<div class="content">
-           
-		 
-		</div> 
-		
-
     </div> 
 
 <!-- END of SLIDE 4 -->

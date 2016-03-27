@@ -82,7 +82,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background:url('../img/Cupcakes-5-1024x640.jpg') no-repeat fixed 50% 0;
+	background:url('../img/Cupcakes-5-1024x640.jpg') fixed 50% 0;
 	color:#660033;
 	height:800px;
 	margin: 0;
@@ -130,22 +130,31 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #divider { background: #660033 url('../img/divider.png') no-repeat;
 width: 300px; height: 35px; margin: 0px auto 27px auto;  }
-#ribbon { background:url('../img/ribbon.png')  no-repeat; 
+#ribbon { background:url('../img/ribbon.png') no-repeat; 
 width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
 
 
 #slide2{
-	background-color:#FFCCFF;
+	background-color:#FFECFF;
 	color:black;
-	height: 1000px;
+	height: 900px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 30px 0;
 }
 
-
 #slide3{
-	background:url('../img/slide3.jpg') no-repeat fixed 50% 0;
+	background-color:#FFFFEC;
+	color:black;
+	height: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+
+#slide4{
+	background:#FFECFF no-repeat fixed 50% 0;
 	text-align:center;
 	color: #fff;
 	height: 400px;
@@ -154,6 +163,7 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	background-size: cover; 
 }
 
+
 .slider-area { width:100%; position:relative; margin:0 auto; padding:5px;}
 /*-------------------------
 [9. Block slider]
@@ -161,6 +171,7 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 .block-slider{
 	border:none;
 	width: 100%;
+	height:300px;
 }
 .block-slider ul li{
 	list-style: none;
@@ -266,15 +277,9 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 }
 
 
-#slide4{
-	background:#FFCCFF;
-	color: #333333;
-	height: 800px;
-	padding: 200px 0;
-}
 
 #slide5{
-	background:url('../img/slide5.jpg')  no-repeat fixed 50% 0;
+	background: url('../img/slide5.jpg') no-repeat fixed 50% 0;
 	height: 200px;
 	margin: 0 auto;
 	padding: 20px 0;
@@ -282,36 +287,79 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	background-size: cover;
 }
 
+
+/* FLAVORS */
+
 #section {
 	width:80%;
 	float:left;
 	padding:5%;
 	height:150px;
-	background-color:#FFFFCC;
+	background-color:#FFECFF;
 	font-family:"Trebuchet MS";
 	font-size:18px;
 }
 
-#start-order {
+#start-order2 {
 	width:20%;
 	float:left;
 	padding:20px;
-	background-color:#FFFFCC;
+	background-color:#FFECFF;
 	height:150px;
 }
 
-#start-order .sticker {
+#start-order2 .sticker {
     position: relative;
     float:left;
-    /*left: auto;
-    right: 0;
- 
-	display: inline-block;*/
-	width: 122px;
+    width: 122px;
 	height: 127px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-image:url('../img/sticker-start-order.png');
+}
+
+#start-order3 {
+	width:20%;
+	float:left;
+	padding:20px;
+	background-color:#FFFFEC;
+	height:150px;
+}
+
+#start-order3 .sticker {
+    position: relative;
+    float:left;
+    width: 122px;
+	height: 127px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image:url('../img/sticker-start-order.png');
+	padding: :20px;
+}
+
+
+ 
+#ready{
+	padding:5%;
+	margin:50px; 
+	height: 100px; 
+	background-color:aqua;
+	
+}
+
+#ready p {
+	text-align:center;
+	font-family:"Trebuchet MS";
+	font-size:small;
+}
+
+/*TESTIMONI */
+#head-testimoni{
+	background:url('img/FOCR_Header1.png');
+	height:200px;
+	margin: 0;
+	padding: 400px 0 260px 0;
+	background-size: cover;
 }
 
 

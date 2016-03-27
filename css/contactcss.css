@@ -1,0 +1,71 @@
+﻿/* CONTATO */
+#contact .social .title{width: 250px; line-height: 35px;margin-top:150px;}
+#contact .social .title .top{font-family: 'PacificoRegular'; font-size:30px; color:#c84e81;}
+#contact .social .title .bot{font-family: 'PacificoRegular'; font-size:54px; color:#5e3d3e;}
+
+#contact .icons {margin-left: -17px;}
+#contact .icons li{width:88px; height:76px; list-style-type:none; float:left; margin-right: -25px;}
+#contact .icons li .instagram{display:block; width:100%; height:100%; background:url('../_images/social_sprite.png')no-repeat 0px top;}
+#contact .icons li .instagram:hover{background-position:0px bottom;}
+
+#contact .icons li .facebook{display:block; width:100%; height:100%; background:url('../_images/social_sprite.png')no-repeat -90px top;}
+#contact .icons li .facebook:hover{background-position:-90px bottom;}
+
+#contact .icons li .twitter{display:block; width:100%; height:100%; background:url('../_images/social_sprite.png')no-repeat -180px top;}
+#contact .icons li .twitter:hover{background-position:-180px bottom;}
+
+#contact .icons li .foursquare{display:block; width:100%; height:100%; background:url('../_images/social_sprite.png')no-repeat -270px top;}
+#contact .icons li .foursquare:hover{background-position:-270px bottom;}
+
+#contact .contact_content{position:relative; width:100%; height:720px;}
+#contact .phone{position:absolute; top: 135px; left: 120px; font-family: 'blanchcondensed'; font-size:52px; color:#eaeee7;}
+#contact .phone{position:absolute; top: 135px; left: 120px; font-family: 'blanchcondensed'; font-size:52px; color:#eaeee7;}
+
+#contact .form_box{position:absolute; top: 180px; left: 268px; width:655px; height:770px;}
+#contact .form_box .title{position:absolute; top:40px; left:55px; line-height: 25px;}
+#contact .form_box .title .top{font-family: 'PacificoRegular'; font-size:30px; color:#c84e81;}
+#contact .form_box .title .bot{font-family: 'PacificoRegular'; font-size:54px; color:#655047;}
+
+#contact #contact_form{position:absolute; width: 230px; top: 120px; left: 55px;}
+#contact #contact_form .captcha{font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#6d5a58;}
+#contact #contact_form #captcha{width:50px !important;margin-left:10px;}
+#contact #contact_form input[type=text]{border:0px; border-bottom: 1px solid #afa19f; background:transparent; font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#6d5a58; width:230px; line-height: 50px; margin-bottom: 8px; height: 47px;}
+#contact #contact_form textarea{border:0px; background:transparent; font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#6d5a58; width:230px; height:152px; resize:none; background:url('../_images/textarea_bg.png')no-repeat center 50px; line-height: 50px;}
+#contact #contact_form input[type=submit]{position: absolute; z-index: 99; bottom: -85px; right: -85px; width:142px; height:137px; background:url('../_images/btn_send_form.png')no-repeat center top transparent; border:0; font-size:0px; cursor: pointer; cursor: hand;}
+#contact #contact_form input[type=submit]:hover{background-position:center bottom;}
+#contact #contact_form .sucess{display:none; position:absolute; top:300px; left:0px; font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#1fa600; line-height: 15px;}
+#contact #contact_form .validate{display:none; position:absolute; top:300px; left:0px; font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#f60000; line-height: 15px;}
+#contact #contact_form .error{display:none; position:absolute; top:300px; left:0px; font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#f60000; line-height: 15px;}
+
+#contact .map_box{position:absolute; width:305px; top: 45px; left: 320px;}
+#contact .map_text{font-family: "proxima-nova-condensed"; font-style: italic; font-size:15px; color:#6d5a58; margin-bottom:12px;}
+#contact .map_text a{color:#c84e81;}
+#contact span{ font-family: "proxima-nova-condensed"; width: 100%; margin-bottom: 10px; font-size:14px; color:#6d5a58; float: right;}
+#contact #map_div{width:300px; height:270px;}
+#contact .email_contact{position: absolute; bottom: 245px; right: 0px; font-family: 'blanchcondensed'; font-size:25px; color:#644c45;}
+#contact .deen_logo{display:block; position: absolute; bottom: 0px; right: 0px; width:40px; height:13px;}
+#contact .deen_logo .normal{position:absolute; top:0px; left:0px; width:100%; height:100%; background:url('../_images/deen_logo.png') no-repeat center top;}
+#contact .deen_logo .hover{display:none; position:absolute; top:0px; left:0px; width:100%; height:100%; background:url('../_images/deen_logo.png') no-repeat center bottom;}
+
+
+
+#profile_form{width: 925px;}
+#profile_form .mandatory_info{font-family: "proxima-nova-condensed"; color:#6d5a58; font-size:15px;}
+#profile_form h1{float:left; font-family: 'PacificoRegular'; color:#614442; margin-top:10px; margin-top: 20px; width:100%;}
+#profile_form label{float:left; display:block; font-family: "proxima-nova-condensed"; color:#6d5a58; font-size: 15px; width: 140px; text-align:right; margin:0px 5px 20px 0px; line-height: 29px;}
+#profile_form .radio_label{width: auto; margin-left: 40px;}
+#profile_form input{float:left; font-family: "proxima-nova-condensed"; color:#6d5a58; border:1px solid #614442; border-radius:5px; padding:5px; margin:0px 15px 15px 0px; width: 130px;}
+#profile_form input[type=radio]{width: 13px; padding: 0; margin: 8px 0px 0px 0px;}
+#profile_form select{float:left; width:142px; margin:0px 15px 20px 0px; padding:5px; border-radius:5px; box-shadow: 0;}
+#profile_form textarea{font-family: "proxima-nova-condensed"; color:#6d5a58; display:block; border:1px solid #614442; border-radius:5px; padding:5px; margin:0px 15px 15px 0px; width:600px; height:165px; resize:none; }
+#profile_form input[type=submit]{width:142px; height:137px; background:url('../_images/btn_send_form.png') no-repeat center top transparent; border:0; font-size:0px; cursor: pointer; cursor: hand; margin: 0px 375px;}
+#profile_form input[type=submit]:hover{background-position:center bottom;}
+#profile_form fieldset{border:0; padding:0; margin:0;}
+#shop_type .other_text{display:none;}
+
+#profile_form .sucess{display:none; font-family: "proxima-nova-condensed"; color:green; font-size:18px; font-weight: bold;}
+#profile_form .error{display:none; font-family: "proxima-nova-condensed"; color:red; font-size:18px; font-weight: bold;}
+#profile_form .required{display:none; font-family: "proxima-nova-condensed"; color:red; font-size:18px; font-weight: bold;}
+
+.fancybox-inner{overflow-x:hidden !important;}
+
