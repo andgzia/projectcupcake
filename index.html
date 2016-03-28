@@ -12,15 +12,19 @@
 
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="css/cupcakecss.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!--<link rel="stylesheet" type="text/css" href="css/responsive.css">-->
 <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
 
 <!--<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">-->
 
 
 <!-- Bootstrap Javascript -->
 <script src="js/bootstrap.js" type="text/javascript"></script>
-<script src="js/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+
 
 <!-- Custom Javascript -->
 <script src="js/cupcakejs.js" type="text/javascript"></script>
@@ -97,25 +101,13 @@ $(document).ready(function() {
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#slide1">Home</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#slide2">Cupcakes</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#slide3">Cakepops</a>
-                   	</li>
-                    <li class="page-scroll">
-                        <a href="#slide6">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="order.html">Order</a>
-                    </li>
-                </ul>
+                     
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">Cupcakes</a></li>
+		<li><a href="#slide3" title="Next Section">Cakepops</a></li>
+		<li><a  href="#slide6" title="Next Section">Contact</a></li>
+		<li><a href="order.html" title="Next Section">Order</a></li>			
+			</ul>
             </div> <!-- /.navbar-collapse -->
 
                 
@@ -312,7 +304,7 @@ $(document).ready(function() {
            <div class="col-md-3 col-sm-12">
   					
   					<div id="start-order3">
-					<a class="sticker">< href="order.html"></a>	
+					<a class="sticker" href="order.html"></a>	
 					</div>
            </div>
                 
@@ -398,8 +390,8 @@ $(document).ready(function() {
                 <div class="col-md-6 col-sm-6">
                     
 						<div id="ready" style="background-color:#D2F7FF;">	
-						<p>Ready to start your custom order? </p>
-						<p>Contact : </p>
+						<p>Ready to start your custom order? <span><a href="order.html"> ClickHere !</a></span></p>
+						<p> or Contact : </p>
 						<p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:order@adorablecupcake.com">  order@adorablecupcake.com</a>.</p>
 						<p><span class="glyphicon glyphicon-phone"></span> +62 812 9413102</p>
 						</div>
@@ -409,31 +401,59 @@ $(document).ready(function() {
          </div>
    	</div>	
           
-          <div class="footer-social-area">   
-          <div class="container">
+          <!-- <div class="footer-social-area">   
+          	<div class="container">
           		<div class="row">
-          			<div class="col-md-12">
+          			<div class="col-md-4">
+                	</div>
+          			<div class="col-md-4">
+          			<p> Find us on:
                     	 	<a href="www.facebook.com" target="_blank"><img style="width:50px; height:50px;"src="img/facebook.png"></a>
                             <a href="www.twitter.com" target="_blank"><img style="width:50px; height:50px;" src="img/twitter.jpeg"></a>
                             <a href="www.instagram.com" target="_blank"><img style="width:50px; height:50px;" src="img/insta.jpeg"></a>
+                            </p>
                         </div>
                     </div>
-		</div> 
+                  <div class="col-md-4">
+                  </div>
+
+		</div>
         </div>
    	
 		
    <div class="footer-bottom-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="copyright">
-                        <p>&copy; 2016 Adorable Cupcake. All Rights Reserved.</p>
+ 					<div class="col-md-4">
+                	</div>
+                <div class="col-md-4">
+                	<div class="copyright">
+                        <p>&copy; 2016 Adorable Cupcake.All Rights Reserved.</p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                	</div>
                 
                 </div>
         </div>
-    </div> 
+    </div> -->
+    
+    <!-- Footer -->
+    <footer class="text-center">
+        
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                       <p>&copy; 2016 Adorable Cupcake.All Rights Reserved.</p>                    
+                       </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
         
 	
 
