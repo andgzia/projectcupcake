@@ -2,10 +2,19 @@
 <html>
 
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <meta content="text/html" charset=utf-8 http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
-<title>Adorable Cupcake</title>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+
+<title>Cupcakery Cupcake</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -13,8 +22,10 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="css/cupcakecss.css">
 <!--<link rel="stylesheet" type="text/css" href="css/responsive.css">-->
-<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/bxslidercss.css">
+<!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">-->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/freelancer.css" rel="stylesheet">
 
 
 <!--<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">-->
@@ -22,7 +33,8 @@
 
 <!-- Bootstrap Javascript -->
 <script src="js/bootstrap.js" type="text/javascript"></script>
-<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<!--<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>-->
+<script src="js/jquery.js"></script>
 
 
 
@@ -30,15 +42,17 @@
 <script src="js/cupcakejs.js" type="text/javascript"></script>
 <script src="js/jquery.bxslider.js" type="text/javascript"></script>
 
+ 
+
 <script>
 // JQUERY FOR IMAGE SLIDER
  
  $(document).ready(function(){
   	$('.bxslider').bxSlider({
-    slideWidth: 300,
+    slideWidth: 200,
     minSlides: 1,
-    maxSlides: 3,
-    moveSlides: 1,
+    maxSlides: 5,
+    moveSlides: 5,
     slideMargin: 10
   });
 });
@@ -49,7 +63,7 @@
    
 <!----- JQUERY FOR SLIDING NAVIGATION --->   
 $(document).ready(function() {
-  $('a[href*=#]').each(function() {
+  $('a[href*=#slide]').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname
     && this.hash.replace(/#/,'') ) {
@@ -94,7 +108,7 @@ $(document).ready(function() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="img/logopage.png" height="75px"></a>
+                <a class="navbar-brand" href="index.html"><img src="img/logopage3.png" height="75px"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -103,8 +117,10 @@ $(document).ready(function() {
                 <ul class="nav navbar-nav navbar-right">
                      
 		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
-		<li><a href="#slide2" title="Next Section">Cupcakes</a></li>
-		<li><a href="#slide3" title="Next Section">Cakepops</a></li>
+		<li><a href="#slide2" title="Next Section">Cakes</a></li>
+		<li><a href="#slide3" title="Next Section">Cupcakes</a></li>
+		<li><a href="#slide4" title="Next Section">Cakepops</a></li>
+		<li><a href="#slide5" title="Next Section">Galery</a></li>
 		<li><a  href="#slide6" title="Next Section">Contact</a></li>
 		<li><a href="order.html" title="Next Section">Order</a></li>			
 			</ul>
@@ -126,7 +142,7 @@ $(document).ready(function() {
 			<div class="quotes">
 			<br>
 			<br>
-			<h1 >Adorable Cupcake </h1>
+			<h1>Tasty Cake </h1>
 		    <br>
 		    <div id="divider"> </div>
 		     <h3>Baked fresh daily </h3>
@@ -137,329 +153,1183 @@ $(document).ready(function() {
 
 <!-- END of SLIDE 1 -->
 
-
 <!-- SLIDE 2 --> 
 <div id="slide2">
-		<div class="container">
-            <div class="row" style="padding:75px;">
-             	<div class="col-md-12 col-sm-12" style="text-align:center;">
-                	<h2 style="font-family:'Arial Black'; color:black"><span class="glyphicon glyphicon-star"></span>  CUPCAKES  <span class="glyphicon glyphicon-star"></span></h2>
-                    </div>
-		</div>
-		</div>
-             
 <div class="container">
-	<div class="row">
-			<div class="col-md-3 col-sm-6">
-			<img src="img/Grasshopper_Web-220x220.jpg" class="img-circle" alt="" style="width:100px; height:100px; float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify;">
-			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">The Grasshopper Cupcake</h4></div>
-			<p>Rich chocolate cake topped with Seely’s peppermint buttercream frosting, dunked in house-made chocolate and topped with green and white sprinkles and chocolate curls.<p>
-			</div>
-		 
-		 	<div class="col-md-3 col-sm-6">
-			<img src="img/LemonDrop.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify;">
-			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Lemon Drop Cupcake</h4></div>
-			<p>Vanilla bean buttercake paired with a very zesty and very buttery lemon frosting.…</p>
-			</div>
-		
-	</div>
-	
-	<div class="row">
-			<div class="col-md-3 col-sm-6">
-			<img src="img/CarrotWalnut.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black;">
-			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Carrot Walnut Cupcake</h4></div>
-			<p>The Carrot Walnut is a hearty spiced carrot cake with chunky walnuts throughout, topped with a thick swirl of rich cream cheese frosting.…<p>
-			</div>
-		 
-		 	<div class="col-md-3 col-sm-6">
-			<img src="img/RedVelvet.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify">
-			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Red Velvet Cupcake</h4></div>
-			<p>A classic Southern buttermilk cake with a hint of cocoa. Topped off with a rich pile of cream cheese frosting and a dusting of red sparkle.…</p>
-			</div>
-		
-	</div>
-	<div class="row">
-			<div class="col-md-3 col-sm-6">
-			<img src="img/PeppermintParty.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black">
-			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Peppermint Cupcake</h4></div>
-			<p>Refreshing mint buttercream piled atop our chocolate or vanilla cake, sprinkled with dark chocolate curls.…<p>
-			</div>
-		 
-		 	<div class="col-md-3 col-sm-6">
-			<img src="img/SaltedCaramel.jpg" class="img-circle" alt="" style="width:100px; height:100px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify">
-			<div><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;">Salted Caramel Cupcake</h4></div>
-			<p>Chocolate Cake Royale topped with house-made caramel buttercream, Fleur de Sel and dark chocolate curls.…</p>
-			</div>
-		
-	</div> 
 
-				
-							
-			<div class="row">
-			   
-			 <div class="col-md-3 col-sm-12">
-             </div> 
-					
-			<div class="col-md-3 col-sm-12">
-                  <button type="button" class="btn btn-info btn-lg" style="float:right;"><a href="flavors.html">View More</a></button>
-			 </div>
+	<div class="row" style="padding:75px;text-align :center;">
+             	<div class="col-md-12 col-sm-12">
                 
-           <div class="col-md-3 col-sm-12">
-  					
+                <h2><strong>Specialty Cakes</strong> </h2>
+                <hr class="star-primary">
+
+                <br>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake TALL : IDR 700K (20cm diameter, 10cm height, serves 24 pax)</p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake SHORT : IDR 485K (20cm diameter, 5cm height, serves 12 pax)</p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake MINI : IDR 250K (10cm diameter, 7.5cm height, serves 4 pax)</p>
+					
+				
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Pick up: by appointment only. Delivery Service: Available.</em></p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Whole Cakes need to be pre ordered 2 days in advance.</em></p>	
+                	
+                </div>
+	</div>
+
+
+
+ <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-rainbowcake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-cookiecreamcake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-darkchococake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-greentealattecake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-hummingbirdcake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-mochawalnutcake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-nutellacake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-pinatacake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cake/menu-saltedcaramelwalnutcake.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+ <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Rainbow Cake </h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-rainbowcake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Rainbow Cake </strong></p>
+							<p>Its a vanilla base cake with layers of cream cheese icing. Why people love this cake? Because of its colorful rainbow ! Ours is super moist, and we use only top quality food coloring. Topped with colorful sanding sugar, its a perfect cake for birthdays or any occasions. </p>
+							<p>(Min.order: 1 whole cake)</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cookie & Cream Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-cookiecreamcake.jpg"class="img-responsive img-centered" alt="">
+                            <p><strong>Cookie & Cream Cake</strong></p>
+                            <p>From one of our classic recipe, now you can enjoy our Cookie and Cream cake ! Based with cookie crust and topped with vanilla buttercream and lot's of Oreo. Kids and adults both love this cake.</p>
+							<p>(Min.order: 1 whole cake)</p>
+							
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Dark-Choco Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-darkchococake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Dark-Choco Cake</strong></p>
+                            <p>One of our best seller since we open. Not too sweet, smooth and very chocolatey taste. The best cake for chocolate lovers.</p>
+							<p>(Min.order: 1 whole cake)</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Green Tea Latte Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-greentealattecake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Green Tea Latte Cake</strong>
+                            <p>This cake is like eating a cup of green tea latte. Our moist vanilla cake is based with our homemade green tea crust and topped with green tea buttercream. The green tea taste is mild, so it's a perfect cake for green tea lovers and also for those who likes their cake not too sweet.</p>
+							<p>(Min.order: 1 whole cake)</p> 
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hummingbird Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-hummingbirdcake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Hummingbird Cake</strong></p>
+                            <p>It's our version of a southern classic. If you like the taste of banana, walnut and cinnamon, then you will love this cake. We topped it with cream cheese frosting. Perfect with a cup of tea or coffee.</p>
+							<p>(Min.order: 1 whole cake)</p> 					 
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mocha Walnut Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-mochawalnutcake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Mocha Walnut Cake</strong></p>
+                            <p>We missed our Mom's cake so much that we re-invent one of her classic cake. It's a light and moist mocha cake with chopped walnuts in the inside and it's layered with coffee buttercream icing, topped with our signature chocolate swirl.</p>
+                            <p>(Min.order: 1 whole cake)</p> 
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Nutella Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-nutellacake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Nutella Cake</strong></p>
+                            <p>Since we start baking lots of people ask if we make nutella cupcakes. Well we created even a better version just for you, Nutella Cake! A light chocolate sponge layered with lot's of nutella, covered with whipped cream and topped with chopped walnut.</p>
+                            <p>(Min.order: 1 whole cake)</p> 
+							<p><strong>Note:</strong>Please keep frozen !</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pinata Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-pinatacake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Pinata Cake</strong></p>
+                            <p>This is the perfect cake for a birthday celebration ! Kids and grown ups love it. Vanilla cake, layered with our signature chocolate icing and filled with confetti chocolate bites.</p>
+                            <p>(Min.order: 1 whole cake)</p> 
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Salted Caramel Walnut Cake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cake/menu-saltedcaramelwalnutcake.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Salted Caramel Walnut Cake</strong></p>                            
+                            <p>Home made caramel sauce over roasted walnuts between our moist vanilla cake and sprinkled sea salt topped with butter cream icing. Its another addiction! </p>
+                            <p>(Min.order: 1 whole cake)</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+			<div class="row">
+  					<div class="col-md-4 col-sm-12">
+  					</div>
+					<div class="col-md-4 col-sm-12">
   					<div id="start-order2">
 					<a class="sticker" href="order.html"></a>	
 					</div>
+           			</div>
+           			<div class="col-md-4 col-sm-12">
+           			</div>
            </div>
+
+</div>
+</div>
+
+
+
+<!-- END OF SLIDE 2 -->
+
+<!-- SLIDE 3 --> 
+<div id="slide3">             
+<div class="container">
+	
+	<div class="row" style="padding:75px;text-align:center;">
+             	<div class="col-md-12 col-sm-12">
                 
-           <div class="col-md-3 col-sm-12">
+                <h2><strong>Signature Cupcakes</strong> </h2>
+                <hr class="star-primary">
+
+
+                <br>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"> REGULAR (7 cm diameter) : IDR 385K (12 pcs, 3 flavours) | IDR 195K (6 pcs, 2 flavours) </p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">	MINI (5 cm diameter) : IDR 265K (12 pcs, 3 flavours) | IDR 135K (6 pcs, 2 flavours) </p>
+				
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>	Pick up: by appointment only. Delivery Service: Available.</em></p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Cupcakes need to be pre ordered 2 days in advance.</em></p>	
+                	
+                </div>
+	</div>
+
+
+
+ <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/1Classic.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/2CarrotWalnut.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/3Grasshopper.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/4BigDipper-220x220.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/5GlutenFree.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal16" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/6PeppermintParty.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal17" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/7RedVelvet.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal18" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/8Tiramisu1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal19" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/9SaltedCaramel.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal20" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/10TripleThreat.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal21" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/11RoyaleWithCheese.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal22" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cupcake/12Kate.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+ <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Classic Vanilla Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/1Classic.jpg"class="img-responsive img-centered" alt="">
+                            <p><strong>Classic Vanilla Cupcake</strong></p>
+							<p>Vanilla cake with the perfect amount of chocolate buttercream swirled on top and rainbow sprinkles. A true classic.…</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Carrot Walnut Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/2CarrotWalnut.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Carrot Walnut Cupcake</strong></p>
+                            <p>The Carrot Walnut is a hearty spiced carrot cake with chunky walnuts throughout, topped with a thick swirl of rich cream cheese frosting.…</p>
+							
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Dark-Choco Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/3Grasshopper.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Dark-Choco Cupcake</strong></p>
+                            <p>Rich chocolate cake topped with Seely’s peppermint buttercream frosting, dunked in house-made chocolate and topped with green and white sprinkles and chocolate curls.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Big Dipper Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/4BigDipper-220x220.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Big Dipper Cupcake</strong>
+                            <p>The Big Dipper is our rich chocolate cake, piped with fluffy meringue, dipped in chocolate, and topped with a candied pearl. Can be special ordered in Gluten Free.…</p> 
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gluten Free Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/5GlutenFree.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Gluten Free Cupcake</strong></p>
+                            <p>Chocolate cake made with Gluten-Free flour, is classically swirled with buttercream frosting and rainbow sprinkles.…</p> 					 
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Peppermint Party Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/6PeppermintParty.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Peppermint Party Cupcake</strong></p>
+                            <p>Refreshing mint buttercream piled atop our chocolate or vanilla cake, sprinkled with dark chocolate curls.…</p> 
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Red Velvet Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/7RedVelvet.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Red Velvet Cupcake</strong></p>
+                            <p>A classic buttermilk cupcake with a hint of cocoa. Topped off with a rich pile of cream cheese frosting and a dusting of red sparkle.…</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tiramisu Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/8Tiramisu1.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Tiramisu Cupcake</strong></p>
+                            <p>Vanilla buttercake, mascarpone whipped frosting that’s blended with a reduction of our favorite Coffee and dusted with cocoa powder.…</p> 
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Salted Caramel Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/9SaltedCaramel.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Salted Caramel Cupcake</strong></p>
+                            <p>Special Chocolate Cupcake topped with house-made caramel buttercream and dark chocolate curls.…</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Triple Threat Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/10TripleThreat.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Triple Threat Cupcake</strong></p>
+                            <p>A chocolate cake frosted with chocolate buttercream and then we add dark chocolate curls. For the serious chocoholic!…</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Royale With Cheese Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/11RoyaleWithCheese.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Royale With Cheese Cupcake</strong></p>
+                            <p>Cream cheese frosting on our deliciously dark chocolate cake and finished with a sprinkling of dark chocolate curls, this is serious cupcake business.…</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>The Kate Cupcake</h2>
+                            <hr class="star-primary">
+                            <img src="img/cupcake/12Kate.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>The Kate Cupcake</strong></p>
+                            <p>Pink vanilla buttercream atop chocolate cake, sprinkled with fun pink and white sprinkles makes what may be the perfect treat.…</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+			
+							
+			<div class="row">
+  					<div class="col-md-4 col-sm-12">
+					</div>
+					<div id="start-order3">
+					<a class="sticker" href="order.html"></a>	
+					</div>
+           			</div>
+           			<div class="col-md-4 col-sm-12">
+					</div>
            </div>
-      	</div>
 	 
 </div>
 </div> 
-
-<!-- END of SLIDE 2 -->
-
-
-<!-- SLIDE 3 --> 
-
-
-<div id="slide3">
-	<div class="container">
-		
-		<div class="row" style="padding:75px;">
-             	<div class="col-md-12 col-sm-12" style="text-align:center;">
-                	<h2 style="font-family:'Arial Black'; color:black"><span class="glyphicon glyphicon-star"></span>  CAKEPOPS  <span class="glyphicon glyphicon-star"></span></h2>
-                    </div>
-		</div>
-	</div>
-             
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-sm-6">
-			<img src="img/cakepopdanceparty.jpg" class="img-circle" alt="" style="width:200px; height:200px; float:right;"/> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black;">
-			<div><br><br><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;"><br><br>Dance Party Cakepop</h4></div>
-			<p>Vanilla cupcake covered in a white chocolate coating with pastel sprinkles…<p>
-			</div>
-		 
-		 	<div class="col-md-3 col-sm-6">
-			<img src="img/cakepopredvelvet.jpg" class="img-circle" alt="" style="width:200px; height:200px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify">
-			<div><br><br><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;"><br><br>Red Velvet Cakepop</h4></div>
-			<p>Red velvet cupcake covered in a white chocolate coating with red sprinkles.…</p>
-			</div>
-		
-	</div>
-	
-	<div class="row">
-			<div class="col-md-3 col-sm-6">
-			<img src="img/cakepoptriple.jpg" class="img-circle" alt="" style="width:200px; height:200px;float:right;"> 
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify; color:black;">
-			<div><br><br><h4 style="color:black; font-family:'Trebuchet MS'; font-weight:bold;"><br><br>Triple Treat Cakepop</h4></div>
-			<p>Chocolate cupcake covered in a chocolate coating with chocolate Vermicelli…<p>
-			</div>
-		 
-		 	<div class="col-md-3 col-sm-6">
-			</div>
-			
-			<div class="col-md-3 col-sm-6" style="text-align:justify">
-			</div>
-		
-	</div>
-	
-	<div class="row">
-			   
-			 <div class="col-md-3 col-sm-12">
-             </div> 
-					
-			<div class="col-md-3 col-sm-12">
-                  <button type="button" class="btn btn-info btn-lg" style="float:right;"><a href="cakepops.html">View More</a></button>
-			 </div>
-                
-           <div class="col-md-3 col-sm-12">
-  					
-  					<div id="start-order3">
-					<a class="sticker" href="order.html"></a>	
-					</div>
-           </div>
-                
-           <div class="col-md-3 col-sm-12">
-           </div>
-      	</div>
-     
-</div>
-</div>
-
 
 <!-- END of SLIDE 3 -->
 
 
 <!-- SLIDE 4 --> 
+
+
 <div id="slide4">
+	<div class="container">
+
+		
+		<div class="row" style="padding:75px;text-align:center;">
+             	<div class="col-md-12 col-sm-12">
+                
+                <h2><strong>Cakepops</strong> </h2>
+                <hr class="star-primary">
+
+
+                <br>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"> REGULAR Cakepops: IDR 120K (12 pcs, 3 flavours) </p>
+								
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Pick up: by appointment only. Delivery Service: Available.</em></p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Cakepops need to be pre ordered 2 days in advance.</em></p>	
+                	
+                </div>
+	</div>
+
+
+
+ <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal31" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Cakepops/cakepopredvelvet.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal32" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Cakepops/cakepopdanceparty.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal33" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Cakepops/cakepoptriple.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+ <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal31" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Red Velvet Cakepop</h2>
+                            <hr class="star-primary">
+                            <img src="img/Cakepops/cakepopredvelvet.jpg"class="img-responsive img-centered" alt="">
+                            <p><strong>Red Velvet Cakepop</strong></p>
+							<p>Red velvet cupcake covered in a white chocolate coating with red sprinkles.…</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal32" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Dance Party Cakepop</h2>
+                            <hr class="star-primary">
+                            <img src="img/Cakepops/cakepopdanceparty.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Dance Party Cakepop</strong></p>
+                            <p>TVanilla cupcake covered in a white chocolate coating with pastel sprinkles.…</p>
+							
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal33" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Triple Threat Cakepop</h2>
+                            <hr class="star-primary">
+                            <img src="img/Cakepops/cakepoptriple.jpg"class="img-responsive img-centered" alt="">
+                            <p><strong>Triple Threat Cakepop</strong></p>
+                            <p>Chocolate cupcake covered in a chocolate coating with chocolate Vermicelli.…</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    	
+							
+			<div class="row">
+  					<div class="col-md-4 col-sm-12">
+					</div>
+					<div class="col-md-4 col-sm-12">
+  					<div id="start-order4">
+					<a class="sticker" href="order.html"></a>	
+					</div>
+           			</div>
+           			<div class="col-md-4 col-sm-12">
+					</div>
+           </div>
+     
+
+</div>
+</div>
+
+<!-- END of SLIDE 4 -->
+
+
+<!-- SLIDE 5 --> 
+
+<div id="slide5">
 		<div class="container">
-	<div class="content">
-	
+		
  	<div class="slider-area">
 	<div class="block-slider"> 
 	
 	<div class="bxslider">
 	
 	
-  <div class="slide"><img src="img/slider1.jpg"></div>
-  <div class="slide"><img src="img/slider3.jpg"></div>
-  <div class="slide"><img src="img/slider4.jpg"></div>
-  <div class="slide"><img src="img/cupcake-parabens.jpg"></div>
-  <div class="slide"><img src="img/RoyaleWithCheese.jpg"></div>
-  <div class="slide"><img src="img/CoconutBunny.jpg" ></div>
-  <div class="slide"><img src="img/Tiramisu1.jpg" ></div>
-  <div class="slide"><img src="img/TripleThreat.jpg"></div>
-  <div class="slide"><img src="img/GlutenFree.jpg" ></div>
+  <div class="slide"><img src="img/cake/menu-rainbowcake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/1Classic.jpg"></div>
+  <div class="slide"><img src="img/Cakepops/cakepopredvelvet.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-cookiecreamcake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/2CarrotWalnut.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-darkchococake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/3Grasshopper.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-greentealattecake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/4BigDipper-220x220.jpg"></div>
+  <div class="slide"><img src="img/Cakepops/cakepopdanceparty.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-hummingbirdcake.jpg" ></div>
+  <div class="slide"><img src="img/cupcake/5GlutenFree.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-mochawalnutcake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/6PeppermintParty.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-nutellacake.jpg" ></div>
+  <div class="slide"><img src="img/cupcake/7RedVelvet.jpg"></div>
+  <div class="slide"><img src="img/Cakepops/cakepoptriple.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-pinatacake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/8Tiramisu1.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-saltedcaramelwalnutcake.jpg"></div>
+  <div class="slide"><img src="img/cupcake/9SaltedCaramel.jpg"></div>
+  <div class="slide"><img src="img/Cakepops/dotcupcakesbox.jpg"></div>
+  <div class="slide"><img src="img/cake/menu-shortombre.jpg"></div>
+
+
 
 	</div>
 
 	</div>
 	</div>
-</div> 
+</div>
 </div>
     </div> 
 
-<!-- END of SLIDE 4 -->
-
-<!-- SLIDE 5 -->
-	<div id="slide5">
-		<div class="content">
-           
-		<div ></div>  
-		</div> 
-		
-
-    </div> 
-
-<!--END of SLIDE 6 -->
+<!-- END of SLIDE 5 -->
 
 <!-- SLIDE 6/ FOOTER -->
 	<div id="slide6">
-		<div class="footer-top-area">
-     
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="footer-newsletter">
-                    	<h2 class="footer-wid-title">Newsletter</h2>
+		<footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4" style="background-color:#FFE8FF;">
+                        <div class="footer-newsletter">
+                        <p style="font-size:20px; font-weight:bold;">Craving for Tasty Cakes ?</p>
+                        <br>
+                        <ul class="list-inline">
+                            <li>
+                                <img alt="Our Shop" src="img/socmed/shop.jpg" width="37" height="37" /> 
+                                <br>
+                                <p style="font-size:14px;"><strong><em>Visit Our Shop</em></strong></p>
+                              	<p style="font-size:14px;">Tasty Cake-Permata Bintaro Sektor 9</p>
+                            </li>
+                            <li>
+                         <br>
+                                <img alt="Delivery" src="img/socmed/delivery.jpg" width="37" height="37" /></a>
+                                <p style="font-size:14px;"><strong><em>Delivery Order</em></strong></p>
+                                <p style="font-size:16px;"> <strong><span class="glyphicon glyphicon-phone"></span> +62 812 9413102</strong></p>
+                            </li>                            
+                          </ul>  
+                        </div>
+                         </div>
+                    <div class="footer-col col-md-4">
+                        <div class="footer-newsletter">
+                        <p style="font-size:30px; font-weight:bold;">Find us</p>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><img title="Facebook" alt="Facebook" src="img/socmed/facebook.png" width="50" height="50" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img title="Twitter" alt="Twitter" src="img/socmed/twitter.png" width="50" height="50" /></a>
+                            </li>                            
+                            <li>
+                                <a href="#"><img title="Pinterest" alt="Pinterest" src="img/socmed/pinterest.png" width="50" height="50" /></a>
+                            </li>
+                          </ul>  
+                         </div>
+                    </div>
+                    <div class="footer-col col-md-4" style="background-color:#FFE8FF;">
+                        <div class="footer-newsletter">
+                    	<p style="font-size:30px; font-weight:bold;">Newsletter</p>
                     	<br>
-                        <p style="font-family:'Trebuchet MS'; font-size:16px;">Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox !</p>
+                    	<br>
+                       	Sign up to our newsletter and get exclusive deals .... straight to your inbox !
                         <div class="newsletter-form">
+                      
                             <form action="#">
                                 <ul>
                                 <input type="email" placeholder="Type your email">
                                 <input type="submit" value="Subscribe">
                                 </ul>
                             </form>
+                           
                         </div>
                     </div>
-                    
-                </div>
-            
-            
-                <div class="col-md-6 col-sm-6">
-                    
-						<div id="ready" style="background-color:#D2F7FF;">	
-						<p>Ready to start your custom order? <span><a href="order.html"> ClickHere !</a></span></p>
-						<p> or Contact : </p>
-						<p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:order@adorablecupcake.com">  order@adorablecupcake.com</a>.</p>
-						<p><span class="glyphicon glyphicon-phone"></span> +62 812 9413102</p>
-						</div>
-	
-                </div>
-          </div>
-         </div>
-   	</div>	
-          
-          <!-- <div class="footer-social-area">   
-          	<div class="container">
-          		<div class="row">
-          			<div class="col-md-4">
-                	</div>
-          			<div class="col-md-4">
-          			<p> Find us on:
-                    	 	<a href="www.facebook.com" target="_blank"><img style="width:50px; height:50px;"src="img/facebook.png"></a>
-                            <a href="www.twitter.com" target="_blank"><img style="width:50px; height:50px;" src="img/twitter.jpeg"></a>
-                            <a href="www.instagram.com" target="_blank"><img style="width:50px; height:50px;" src="img/insta.jpeg"></a>
-                            </p>
-                        </div>
-                    </div>
-                  <div class="col-md-4">
-                  </div>
 
-		</div>
-        </div>
-   	
-		
-   <div class="footer-bottom-area">
-        <div class="container">
-            <div class="row">
- 					<div class="col-md-4">
-                	</div>
-                <div class="col-md-4">
-                	<div class="copyright">
-                        <p>&copy; 2016 Adorable Cupcake.All Rights Reserved.</p>
                     </div>
-                </div>
-                <div class="col-md-4">
-                	</div>
-                
-                </div>
-        </div>
-    </div> -->
-    
-    <!-- Footer -->
-    <footer class="text-center">
-        
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                       <p>&copy; 2016 Adorable Cupcake.All Rights Reserved.</p>                    
-                       </div>
                 </div>
             </div>
         </div>
-    </footer>
-
-    
-
-        
-	
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                         <p>&copy; 2016 Tasty Cake. Developed by AdeIrma</p>    
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>	
 
 </div> 
 
-<!--END of SLIDE 5 -->
+<!--END of SLIDE 6 -->
+
+
+<!-- Bootstrap Javascript -->
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<!--<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>-->
+<script src="js/jquery.js"></script>
+
+
+
+<!-- Custom Javascript -->
+<script src="js/cupcakejs.js" type="text/javascript"></script>
+<script src="js/jquery.bxslider.js" type="text/javascript"></script>
 
 
 </body>

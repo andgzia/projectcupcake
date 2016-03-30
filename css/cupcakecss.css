@@ -84,9 +84,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background:url('../img/Cupcakes-5-1024x640.jpg') no-repeat fixed 50% 0;
 	color:#660033;
-	height:800px;
+	height:50%;
 	margin: 0;
-	padding: 200px 0 260px 0;
+	padding: 350px 0 260px 0;
 	background-size: cover;
 }
 
@@ -101,7 +101,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 
 .quotes_container .quotes h1 {
-	font-family:Billabong;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-size:75px;
 	color:#660033;
 	opacity:1;
@@ -112,7 +112,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 .quotes_container .quotes h2 {
-	font-family:Billabong;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-size:75px;
 	color:#660033;
 	opacity:1;
@@ -123,7 +123,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 .quotes_container .quotes h3 {
 	font-family:"Lucida Handwriting";
 	color:black;
-	font-size:18px;
+	font-size:20px;
 	opacity:1;
 }
 
@@ -137,41 +137,118 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 #slide2{
 	background-color:#FFECFF;
 	color:black;
-	height: 900px;
+	height: 50%;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 30px 0;
+	padding: 20px 0;
+}
+#start-order2 {
+	width:20%;
+	padding:10px;
+	background-color:#FFECFF;
+	height:150px;
 }
 
+#start-order2 .sticker {
+    position: relative;
+    margin: 25px auto 30px;
+    float:left;
+    width: 122px;
+	height: 127px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image:url('../img/sticker-start-order.png');
+}
+
+
 #slide3{
-	background-color:#FFFFEC;
+	background-color:#E1F0FF;
 	color:black;
-	height: 900px;
+	height:50%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 20px 0;
 }
 
+#start-order3 {
+	width:20%;
+	float:left;
+	padding:20px;
+	background-color:#E1F0FF;
+	height:150px;
+}
+
+#start-order3 .sticker {
+    position: relative;
+    float:left;
+    width: 122px;
+	height: 127px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image:url('../img/sticker-start-order.png');
+}
 
 #slide4{
-	background:#FFECFF no-repeat fixed 50% 0;
-	text-align:center;
-	color: #fff;
-	height: 400px;
-	padding: 20px 20px 20px 20px;
-	margin:20px 20px auto;	
-	background-size: cover; 
+	background-color:#FFCCFF;
+	color:black;
+	height: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+#start-order4 {
+	width:20%;
+	float:left;
+	padding:20px;
+	background-color:#FFCCFF;
+	height:150px;
+}
+
+#start-order4 .sticker {
+    position: relative;
+    float:left;
+    width: 122px;
+	height: 127px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image:url('../img/sticker-start-order.png');
+	padding: :20px;
 }
 
 
-.slider-area { width:100%; position:relative; margin:0 auto; padding:5px;}
+
+#slide5{
+	background:#FFECFF no-repeat fixed 50% 0;
+	text-align:center;
+	color: #fff;
+	height:35%;
+	padding: 60px 20px 20px 20px;
+	margin:20px 20px auto;	
+	overflow:hidden;
+	/*background-size: cover; */
+	
+}
+
+#slide6 {
+	background:#FFE8FF no-repeat fixed 50% 0;
+	height: 25%;
+	margin: 0 auto;
+	padding: 60px 20px 20px 20px;
+	margin:20px 20px auto;	
+	color:black;
+	overflow:hidden;
+	/*background-size: cover;*/
+}
+
+.slider-area { width:100%; position:relative; margin:0 auto; padding-top:75px;}
 /*-------------------------
 [9. Block slider]
 ---------------------------*/
 .block-slider{
 	border:none;
 	width: 100%;
-	height:300px;
+	height:400px;
 }
 .block-slider ul li{
 	list-style: none;
@@ -202,8 +279,8 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 }
 
 .block-slider img{
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height:220px;
 }
 
 .block-slider .bx-prev{
@@ -273,27 +350,6 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	color: #1bd172;
 }
 .block-slider .caption-group .caption{
-
-}
-
-
-
-#slide5{
-	background:no-repeat aqua fixed 50% 0;
-	height: 200px;
-	margin: 0 auto;
-	padding: 20px 0;
-	color: #fff;
-	background-size: cover;
-}
-
-#slide6{
-	background:#FFE8FF fixed 50% 0;
-	height: 400px;
-	margin: 0 auto;
-	padding: 20px 0;
-	color:black;
-	background-size: cover;
 }
 
 /* FLAVORS */
@@ -354,11 +410,10 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 
 .footer-newsletter {
   margin-bottom: 60px;
-  color:black;
-  text-align:left;
+  color:#990033;
+  text-align:center;
   padding-top:20px;
-
-}
+ }
 
 .newsletter-form input[type=email] {
     background: none repeat scroll 0 0 #fff;
@@ -382,7 +437,7 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
     margin-top: 25px;
 }
 
-.footer-bottom-area {background:#990033;color:black;font-size:16px;height:50px;margin-top:10px;}
+.footer-bottom-area {background:#990033;color:black;font-size:16px;height:50px;margin-top:20px;}
 
 .footer-wid-title {
   font-family:"Trebuchet MS";
@@ -402,46 +457,6 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 
 .footer-social-area {background:#990033;color:white;height:75px;}
 
-
-#start-order2 {
-	width:20%;
-	float:left;
-	padding:20px;
-	background-color:#FFECFF;
-	height:150px;
-}
-
-#start-order2 .sticker {
-    position: relative;
-    float:left;
-    width: 122px;
-	height: 127px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-image:url('../img/sticker-start-order.png');
-}
-
-#start-order3 {
-	width:20%;
-	float:left;
-	padding:20px;
-	background-color:#FFFFEC;
-	height:150px;
-}
-
-#start-order3 .sticker {
-    position: relative;
-    float:left;
-    width: 122px;
-	height: 127px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-image:url('../img/sticker-start-order.png');
-	padding: :20px;
-}
-
-
- 
 #ready{
 	padding:25px;
 	margin:25px; 
@@ -454,15 +469,6 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 }
 
 
-
-/*TESTIMONI */
-#head-testimoni{
-	background:url('img/FOCR_Header1.png');
-	height:200px;
-	margin: 0;
-	padding: 400px 0 260px 0;
-	background-size: cover;
-}
 
 .order {
 	margin-top:150px;
