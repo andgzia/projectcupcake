@@ -53,30 +53,6 @@ a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
 
 
-
-/*= BUTTONS
---------------------------------------------------------*/
-
-button.btn-know { 
-	padding: 15px 47px; 
-	margin: 40px 38.8%;
-	text-align: center;
-	border: 4px solid #fff; 
-	color: #fff; 
-	background: transparent; 
-	font-size: 19px;
-	cursor: pointer;
-	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-}
-
-.btn-know:hover { background: #fff; color: transparent; }
-ul.built { list-style: none; margin: 0 auto; width: 730px; }
-.built li img{ float: left; padding-right: 34px; }
-
-
-
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
@@ -142,6 +118,13 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	overflow: hidden;
 	padding: 20px 0;
 }
+
+.clickimage p {
+	text-align:left;
+	font-size:medium;
+	font-style:italic;
+}
+
 #start-order2 {
 	width:20%;
 	padding:10px;
@@ -226,7 +209,6 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	padding: 60px 20px 20px 20px;
 	margin:20px 20px auto;	
 	overflow:hidden;
-	/*background-size: cover; */
 	
 }
 
@@ -238,7 +220,7 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 	margin:20px 20px auto;	
 	color:black;
 	overflow:hidden;
-	/*background-size: cover;*/
+	
 }
 
 .slider-area { width:100%; position:relative; margin:0 auto; padding-top:75px;}
@@ -352,200 +334,10 @@ width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative;
 .block-slider .caption-group .caption{
 }
 
-/* FLAVORS */
-
-.section {
-	width:60%;
-	float:left;
-	padding:10px;
-	height:175px;
-	background-color:#FFECFF;
-	font-family:"Trebuchet MS";
-	font-size:16px;
-}
-
-.start-order {
-	width:20%;
-	float:left;
-	padding:20px;
-	background-color:#FFECFF;
-	height:175px;
-}
-
-.start-order .sticker {
-    position: relative;
-    float:left;
-    width: 122px;
-	height: 127px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-image:url('../img/sticker-start-order.png');
-}
-
-
-.article {
-	width:40%;
-	float:left;
-	padding:5%;
-	height:300px;
-	background-color:#FFECFF;
-	font-family:"Trebuchet MS";
-	font-size:16px;
-}
-
-.contact{
-	margin-top:150px;
-	padding:150px;
-}
-.footer-top-area {
-  bottom: -153px;
-  height: 300px;
-}    
-
-.footer-about-us {
-  margin-bottom: 60px;
-  color:black;
-  text-align:left;
-}
-
 .footer-newsletter {
   margin-bottom: 60px;
   color:#990033;
   text-align:center;
   padding-top:20px;
  }
-
-.newsletter-form input[type=email] {
-    background: none repeat scroll 0 0 #fff;
-    border: medium none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 80%;
-}
-.newsletter-form input[type=submit] {
-    background: none repeat scroll 0 0 #5a88ca;
-    border: medium none;
-    color: #fff;
-    display: inline-block;
-    font-size: 18px;
-    padding: 7px 20px;
-    text-transform: uppercase;border: 1px solid #5a88ca;
-    margin-bottom:10px;
-}
-.newsletter-form input[type=submit]:hover {background: #222;border-color: #666}
-.newsletter-form {
-    margin-top: 25px;
-}
-
-.footer-bottom-area {background:#990033;color:black;font-size:16px;height:50px;margin-top:20px;}
-
-.footer-wid-title {
-  font-family:"Trebuchet MS";
-  font-size: 30px;
-  font-weight: 100px;
-  color: black;
-  text-align:left;
-  text-align:left;
-  padding-top:20px;
-}
-
-.footer-wid-title p {
-	font-family:"Trebuchet MS";
-	text-align:left;
-}
-
-
-.footer-social-area {background:#990033;color:white;height:75px;}
-
-#ready{
-	padding:25px;
-	margin:25px; 
-}
-
-#ready p {
-	text-align:left;
-	font-family:"Trebuchet MS";
-	font-size:18px;
-}
-
-
-
-.order {
-	margin-top:150px;
-}
-
-
-/*= FOOTER 
---------------------------------------------------------*/
-
-.copyright  { color:black; font-family:"Wellfleet";  font-size: 14px; margin-top: 10px; text-align:left;  }
-
-.copyright  a { text-decoration: none; color: #fff;  }
-
-
-/* ORDER */
-
-
-
-.order .container h1{
-	font-family:Billabong;
-	font-size:70px;
-	color:black;
-	text-align:left;
-}
-
-.order .container p{
-font-size:18px;
-}
-
-.order-form input[type=name] {
-    background: none repeat scroll 0 0 #fff;
-    border: medium none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 300px;
-}
-.order-form input[type=phone] {
-    background: none repeat scroll 0 0 #fff;
-    border: medium none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 300px;
-}
-.order-form input[type=email] {
-    background: none repeat scroll 0 0 #fff;
-    border: medium none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 300px;
-}
-.order-form input[type=message] {
-    background: none repeat scroll 0 0 #fff;
-    border: medium none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 300px;
-    height:200px
-}
-
-
-.order-form input[type=submit] {
-    background: none repeat scroll 0 0 #5a88ca;
-    border: medium none;
-    color: #fff;
-    display: inline-block;
-    font-size: 18px;
-    padding: 10px 20px;
-    text-transform: uppercase;border: 1px solid #5a88ca;
-    margin-bottom:10px;
-}
-.order-form input[type=submit]:hover {background: #222;border-color: #666}
-.order-form {
-    margin-top: 25px;
-}
-
-textarea {
-border-radius : 5%;
-width:50%;
-}
 

@@ -12,82 +12,29 @@
     <meta name="author" content="">
 
 
-
-
-<title>Cupcakery Cupcake</title>
+<title>Tasty Cake</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="css/cupcakecss.css">
-<!--<link rel="stylesheet" type="text/css" href="css/responsive.css">-->
 <link rel="stylesheet" type="text/css" href="css/bxslidercss.css">
-<!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">-->
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="css/freelancer.css" rel="stylesheet">
+<link href="css/modals.css" rel="stylesheet">
 
 
-<!--<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">-->
 
 
-<!-- Bootstrap Javascript -->
+<!-- Bootstrap Javascript-->
 <script src="js/bootstrap.js" type="text/javascript"></script>
-<!--<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>-->
 <script src="js/jquery.js"></script>
 
 
 
 <!-- Custom Javascript -->
 <script src="js/cupcakejs.js" type="text/javascript"></script>
-<script src="js/jquery.bxslider.js" type="text/javascript"></script>
-
- 
-
-<script>
-// JQUERY FOR IMAGE SLIDER
- 
- $(document).ready(function(){
-  	$('.bxslider').bxSlider({
-    slideWidth: 200,
-    minSlides: 1,
-    maxSlides: 5,
-    moveSlides: 5,
-    slideMargin: 10
-  });
-});
-
-</script>
-
-<script>
-   
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
-$(document).ready(function() {
-  $('a[href*=#slide]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
-         $(this).click(function() {
-            $("#nav li a").removeClass("active");
-            $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           return false;
-         });
-      }
-    }
-  });
-
-});
-
-
-</script>
-
+<script src="js/jquery.bxslider.js" type="text/javascript"></script> 
 
 </head>
 
@@ -97,7 +44,7 @@ $(document).ready(function() {
 <!-- Navigation responsive css toggle jquerysticky -->
 
 <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+	<div class="container">
             
             <!-- Brand and toggle get grouped for better mobile display -->
             
@@ -116,19 +63,19 @@ $(document).ready(function() {
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                      
-		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
-		<li><a href="#slide2" title="Next Section">Cakes</a></li>
-		<li><a href="#slide3" title="Next Section">Cupcakes</a></li>
-		<li><a href="#slide4" title="Next Section">Cakepops</a></li>
-		<li><a href="#slide5" title="Next Section">Galery</a></li>
-		<li><a  href="#slide6" title="Next Section">Contact</a></li>
-		<li><a href="order.html" title="Next Section">Order</a></li>			
-			</ul>
+					<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+					<li><a href="#slide2" title="Next Section">Cakes</a></li>
+					<li><a href="#slide3" title="Next Section">Cupcakes</a></li>
+					<li><a href="#slide4" title="Next Section">Cakepops</a></li>
+					<li><a href="#slide5" title="Next Section">Galery</a></li>
+					<li><a  href="#slide6" title="Next Section">Contact</a></li>
+					<li><a href="order.html" title="Next Section">Order</a></li>			
+				</ul>
             </div> <!-- /.navbar-collapse -->
 
                 
- 	</div> <!-- /.container -->
- </nav>
+	</div> <!-- /.container -->
+</nav>
 
 <!-- END of MENU AREA -->
 
@@ -140,15 +87,15 @@ $(document).ready(function() {
 		
 		<div class="quotes_container">
 			<div class="quotes">
-			<br>
-			<br>
-			<h1>Tasty Cake </h1>
-		    <br>
-		    <div id="divider"> </div>
-		     <h3>Baked fresh daily </h3>
+				<br>
+				<br>
+				<h1>Tasty Cake </h1>
+		    	<br>
+		    	<div id="divider"> </div>
+		     	<h3>Baked fresh daily </h3>
         	</div>
         </div>
-       <!-- </div> -->
+       
 </div> 
 
 <!-- END of SLIDE 1 -->
@@ -164,9 +111,9 @@ $(document).ready(function() {
                 <hr class="star-primary">
 
                 <br>
-				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake TALL : IDR 700K (20cm diameter, 10cm height, serves 24 pax)</p>
-				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake SHORT : IDR 485K (20cm diameter, 5cm height, serves 12 pax)</p>
-				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake MINI : IDR 250K (10cm diameter, 7.5cm height, serves 4 pax)</p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake TALL : IDR 600K (20cm diameter, 10cm height, serves 24 pax)</p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake SHORT :IDR 300K (20cm diameter, 5cm height, serves 12 pax)</p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">Whole Cake MINI : IDR 150K (10cm diameter, 7.5cm height, serves 6 pax)</p>
 					
 				
 				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Pick up: by appointment only. Delivery Service: Available.</em></p>
@@ -174,8 +121,9 @@ $(document).ready(function() {
                 	
                 </div>
 	</div>
-
-
+	<div class="clickimage">
+	<p>  ** Click image for description</p>
+	</div>
 
  <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -522,21 +470,20 @@ $(document).ready(function() {
         </div>
     </div>
 
-			<div class="row">
-  					<div class="col-md-4 col-sm-12">
-  					</div>
-					<div class="col-md-4 col-sm-12">
-  					<div id="start-order2">
-					<a class="sticker" href="order.html"></a>	
-					</div>
-           			</div>
-           			<div class="col-md-4 col-sm-12">
-           			</div>
-           </div>
-
-</div>
+<div class="row">
+	<div class="col-md-4 col-sm-12">
+	</div>
+	<div class="col-md-4 col-sm-12">
+		<div id="start-order2">
+		<a class="sticker" href="order.html"></a>	
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-12">
+	</div>
 </div>
 
+</div> <!-- container-->
+</div> <!-- slide2-->
 
 
 <!-- END OF SLIDE 2 -->
@@ -546,26 +493,30 @@ $(document).ready(function() {
 <div class="container">
 	
 	<div class="row" style="padding:75px;text-align:center;">
-             	<div class="col-md-12 col-sm-12">
+          <div class="col-md-12 col-sm-12">
                 
                 <h2><strong>Signature Cupcakes</strong> </h2>
                 <hr class="star-primary">
 
 
                 <br>
-				<p style="font-family:'Trebuchet MS'; font-size:medium;"> REGULAR (7 cm diameter) : IDR 385K (12 pcs, 3 flavours) | IDR 195K (6 pcs, 2 flavours) </p>
-				<p style="font-family:'Trebuchet MS'; font-size:medium;">	MINI (5 cm diameter) : IDR 265K (12 pcs, 3 flavours) | IDR 135K (6 pcs, 2 flavours) </p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;"> REGULAR (7 cm diameter): IDR 350K (12 pcs, 3 flavours) | IDR 180K (6 pcs, 2 flavours) </p>
+				<p style="font-family:'Trebuchet MS'; font-size:medium;">	MINI (5 cm diameter) : IDR 240K (12 pcs, 3 flavours) | IDR 120K (6 pcs, 2 flavours) </p>
 				
 				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>	Pick up: by appointment only. Delivery Service: Available.</em></p>
 				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Cupcakes need to be pre ordered 2 days in advance.</em></p>	
                 	
-                </div>
+          </div>
+	</div>
+
+	<div class="clickimage">
+	<p>  ** Click image for description</p>
 	</div>
 
 
 
  <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+ <section id="portfolio">
         <div class="container">
             
             <div class="row">
@@ -691,9 +642,9 @@ $(document).ready(function() {
                     </a>
                 </div>
 
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visible-sm">
@@ -703,15 +654,16 @@ $(document).ready(function() {
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+               <div class="rl">
+               </div>
             </div>
-            <div class="container">
+        </div>
+			
+			<div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
@@ -725,10 +677,11 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+         	</div>
+   </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -749,12 +702,13 @@ $(document).ready(function() {
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+               </div>
+         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -774,11 +728,12 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+           </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -799,11 +754,12 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+          </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -824,11 +780,12 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+          </div>
+     </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -849,12 +806,12 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+          </div>
+     </div>
+</div>
 
-	<div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+<div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -874,13 +831,13 @@ $(document).ready(function() {
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+               </div>
+          </div>
     </div>
+</div>
 
-   <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+<div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -899,14 +856,14 @@ $(document).ready(function() {
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                   </div>
+               </div>
+          </div>
+     </div>
+</div>
 
-	<div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+<div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -924,14 +881,14 @@ $(document).ready(function() {
                             <p>Special Chocolate Cupcake topped with house-made caramel buttercream and dark chocolate curls.…</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                   </div>
+             </div>
+         </div>
     </div>
+</div>
 
-	<div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+<div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -949,14 +906,14 @@ $(document).ready(function() {
                             <p>A chocolate cake frosted with chocolate buttercream and then we add dark chocolate curls. For the serious chocoholic!…</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                   </div>
+               </div>
+          </div>
+     </div>
+</div>
 
-	<div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+<div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -975,13 +932,13 @@ $(document).ready(function() {
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+               </div>
+          </div>
+     </div>
+</div>
 
-	<div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+<div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -999,26 +956,27 @@ $(document).ready(function() {
                             <p>Pink vanilla buttercream atop chocolate cake, sprinkled with fun pink and white sprinkles makes what may be the perfect treat.…</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                   </div>
+              </div>
+         </div>
     </div>
+</div>
 			
 							
-			<div class="row">
-  					<div class="col-md-4 col-sm-12">
-					</div>
-					<div id="start-order3">
-					<a class="sticker" href="order.html"></a>	
-					</div>
-           			</div>
-           			<div class="col-md-4 col-sm-12">
-					</div>
-           </div>
-	 
+<div class="row">
+	<div class="col-md-4 col-sm-12">
+	</div>
+	<div class="col-md-4 col-sm-12">
+		<div id="start-order3">
+		<a class="sticker" href="order.html"></a>	
+		</div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+    </div>
 </div>
-</div> 
+	 
+</div> <!-- container -->
+</div>  <!-- slide 3-->
 
 <!-- END of SLIDE 3 -->
 
@@ -1029,8 +987,7 @@ $(document).ready(function() {
 <div id="slide4">
 	<div class="container">
 
-		
-		<div class="row" style="padding:75px;text-align:center;">
+			<div class="row" style="padding:75px;text-align:center;">
              	<div class="col-md-12 col-sm-12">
                 
                 <h2><strong>Cakepops</strong> </h2>
@@ -1044,13 +1001,16 @@ $(document).ready(function() {
 				<p style="font-family:'Trebuchet MS'; font-size:medium;"><em>Cakepops need to be pre ordered 2 days in advance.</em></p>	
                 	
                 </div>
+			</div>
+	
+	<div class="clickimage">
+	<p>  ** Click image for description</p>
 	</div>
 
 
-
  <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
+<section id="portfolio">
+    <div class="container">
             
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
@@ -1085,27 +1045,28 @@ $(document).ready(function() {
                 </div>
                 
 
-            </div>
-        </div>
-    </section>
+          </div>
+     </div>
+</section>
 
  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
+<div class="scroll-top page-scroll visible-xs visible-sm">
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
-    </div>
+</div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal31" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
+<div class="portfolio-modal modal fade" id="portfolioModal31" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
                     <div class="rl">
                     </div>
-                </div>
-            </div>
-            <div class="container">
+              </div>
+          </div>
+          
+          <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
@@ -1118,13 +1079,14 @@ $(document).ready(function() {
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+               </div>
+         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal32" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+</div>
+   
+<div class="portfolio-modal modal fade" id="portfolioModal32" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -1138,18 +1100,19 @@ $(document).ready(function() {
                             <hr class="star-primary">
                             <img src="img/Cakepops/cakepopdanceparty.jpg" class="img-responsive img-centered" alt="">
                             <p><strong>Dance Party Cakepop</strong></p>
-                            <p>TVanilla cupcake covered in a white chocolate coating with pastel sprinkles.…</p>
+                            <p>Vanilla cupcake covered in a white chocolate coating with pastel sprinkles.…</p>
 							
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal33" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+           </div>
+     </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal33" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -1168,27 +1131,27 @@ $(document).ready(function() {
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+               </div>
+          </div>
     </div>
+</div>
     	
 							
-			<div class="row">
-  					<div class="col-md-4 col-sm-12">
-					</div>
-					<div class="col-md-4 col-sm-12">
-  					<div id="start-order4">
-					<a class="sticker" href="order.html"></a>	
-					</div>
-           			</div>
-           			<div class="col-md-4 col-sm-12">
-					</div>
-           </div>
+<div class="row">
+	<div class="col-md-4 col-sm-12">
+	</div>
+	<div class="col-md-4 col-sm-12">
+		<div id="start-order4">
+		<a class="sticker" href="order.html"></a>	
+		</div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+	</div>
+</div>
      
 
-</div>
-</div>
+</div><!-- container--> 
+</div><!-- slide4 -->
 
 <!-- END of SLIDE 4 -->
 
@@ -1196,56 +1159,55 @@ $(document).ready(function() {
 <!-- SLIDE 5 --> 
 
 <div id="slide5">
-		<div class="container">
+	<div class="container">
 		
- 	<div class="slider-area">
-	<div class="block-slider"> 
+	 	<div class="slider-area">
+		<div class="block-slider"> 
+		
+		<div class="bxslider">
 	
-	<div class="bxslider">
 	
-	
-  <div class="slide"><img src="img/cake/menu-rainbowcake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/1Classic.jpg"></div>
-  <div class="slide"><img src="img/Cakepops/cakepopredvelvet.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-cookiecreamcake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/2CarrotWalnut.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-darkchococake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/3Grasshopper.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-greentealattecake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/4BigDipper-220x220.jpg"></div>
-  <div class="slide"><img src="img/Cakepops/cakepopdanceparty.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-hummingbirdcake.jpg" ></div>
-  <div class="slide"><img src="img/cupcake/5GlutenFree.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-mochawalnutcake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/6PeppermintParty.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-nutellacake.jpg" ></div>
-  <div class="slide"><img src="img/cupcake/7RedVelvet.jpg"></div>
-  <div class="slide"><img src="img/Cakepops/cakepoptriple.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-pinatacake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/8Tiramisu1.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-saltedcaramelwalnutcake.jpg"></div>
-  <div class="slide"><img src="img/cupcake/9SaltedCaramel.jpg"></div>
-  <div class="slide"><img src="img/Cakepops/dotcupcakesbox.jpg"></div>
-  <div class="slide"><img src="img/cake/menu-shortombre.jpg"></div>
-
-
-
-	</div>
-
-	</div>
-	</div>
-</div>
-</div>
-    </div> 
+			  <div class="slide"><img src="img/cake/menu-rainbowcake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/1Classic.jpg"></div>
+			  <div class="slide"><img src="img/Cakepops/cakepopredvelvet.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-cookiecreamcake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/2CarrotWalnut.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-darkchococake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/3Grasshopper.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-greentealattecake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/4BigDipper-220x220.jpg"></div>
+			  <div class="slide"><img src="img/Cakepops/cakepopdanceparty.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-hummingbirdcake.jpg" ></div>
+			  <div class="slide"><img src="img/cupcake/5GlutenFree.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-mochawalnutcake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/6PeppermintParty.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-nutellacake.jpg" ></div>
+			  <div class="slide"><img src="img/cupcake/7RedVelvet.jpg"></div>
+			  <div class="slide"><img src="img/Cakepops/cakepoptriple.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-pinatacake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/8Tiramisu1.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-saltedcaramelwalnutcake.jpg"></div>
+			  <div class="slide"><img src="img/cupcake/9SaltedCaramel.jpg"></div>
+			  <div class="slide"><img src="img/Cakepops/dotcupcakesbox.jpg"></div>
+			  <div class="slide"><img src="img/cake/menu-shortombre.jpg"></div>
+			
+		</div>
+		</div>
+		</div>
+</div> <!--container -->
+</div> <!-- slide 5 -->
+   
 
 <!-- END of SLIDE 5 -->
 
 <!-- SLIDE 6/ FOOTER -->
-	<div id="slide6">
-		<footer class="text-center">
+<div id="slide6">
+	<footer class="text-center">
+        
         <div class="footer-above">
             <div class="container">
                 <div class="row">
+                
                     <div class="footer-col col-md-4" style="background-color:#FFE8FF;">
                         <div class="footer-newsletter">
                         <p style="font-size:20px; font-weight:bold;">Craving for Tasty Cakes ?</p>
@@ -1255,17 +1217,20 @@ $(document).ready(function() {
                                 <img alt="Our Shop" src="img/socmed/shop.jpg" width="37" height="37" /> 
                                 <br>
                                 <p style="font-size:14px;"><strong><em>Visit Our Shop</em></strong></p>
-                              	<p style="font-size:14px;">Tasty Cake-Permata Bintaro Sektor 9</p>
+                              	<p style="font-size:14px;">Tasty Cake-Permata Bintaro Jl. Trulek I no 13/14 Bintaro Sektor 9</p>
+                              	<p style="font-size:16px;"><span class="glyphicon glyphicon-phone"></span> +021 7454870</p>
+
                             </li>
                             <li>
-                         <br>
-                                <img alt="Delivery" src="img/socmed/delivery.jpg" width="37" height="37" /></a>
-                                <p style="font-size:14px;"><strong><em>Delivery Order</em></strong></p>
-                                <p style="font-size:16px;"> <strong><span class="glyphicon glyphicon-phone"></span> +62 812 9413102</strong></p>
+                         	<br>
+                         	<img alt="Delivery" src="img/socmed/delivery.jpg" width="37" height="37" />
+                         	<p style="font-size:14px;"><strong><em>Delivery Order</em></strong></p>
+                         	<p style="font-size:16px;"> <strong><span class="glyphicon glyphicon-phone"></span> +62 812 9413102</strong></p>
                             </li>                            
                           </ul>  
                         </div>
-                         </div>
+                      </div>
+                    
                     <div class="footer-col col-md-4">
                         <div class="footer-newsletter">
                         <p style="font-size:30px; font-weight:bold;">Find us</p>
@@ -1280,8 +1245,9 @@ $(document).ready(function() {
                                 <a href="#"><img title="Pinterest" alt="Pinterest" src="img/socmed/pinterest.png" width="50" height="50" /></a>
                             </li>
                           </ul>  
-                         </div>
+                       </div>
                     </div>
+                    
                     <div class="footer-col col-md-4" style="background-color:#FFE8FF;">
                         <div class="footer-newsletter">
                     	<p style="font-size:30px; font-weight:bold;">Newsletter</p>
@@ -1298,38 +1264,84 @@ $(document).ready(function() {
                             </form>
                            
                         </div>
-                    </div>
+                    	</div>
+                  </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
+               </div>
+           </div>
+       </div>
+       
+       <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                         <p>&copy; 2016 Tasty Cake. Developed by AdeIrma</p>    
+                         <p>&copy; 2016 Tasty Cake | Web Developed by AdeIrma</p>    
                      </div>
                 </div>
             </div>
-        </div>
-    </footer>	
+       </div>
 
-</div> 
+ </footer>	
+</div> <!-- SLIDE 6 -->
 
 <!--END of SLIDE 6 -->
 
 
-<!-- Bootstrap Javascript -->
+<!-- Bootstrap Javascript--> 
 <script src="js/bootstrap.js" type="text/javascript"></script>
-<!--<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>-->
 <script src="js/jquery.js"></script>
 
 
 
-<!-- Custom Javascript -->
+<!-- Custom Javascript-->
 <script src="js/cupcakejs.js" type="text/javascript"></script>
 <script src="js/jquery.bxslider.js" type="text/javascript"></script>
+
+<script>
+
+// JQUERY FOR IMAGE SLIDER
+ 
+ $(document).ready(function(){
+  	$('.bxslider').bxSlider({
+    slideWidth: 200,
+    minSlides: 1,
+    maxSlides: 5,
+    moveSlides: 5,
+    slideMargin: 10
+  });
+});
+
+</script>
+
+<script>
+   
+// JQUERY FOR SLIDING NAVIGATION 
+$(document).ready(function() {
+  $('a[href*=#slide]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+// JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
 
 
 </body>
